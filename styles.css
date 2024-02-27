@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    gap: 7em;
+}
+
+.divisao__login {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    gap: .5em;
+}
+
+.conteudo {
+    justify-content: center;
+}
+
+.login {
+    margin: 2em 0;
+    
+}
+
+.botao__voltar {
+    padding: 1em;
+}
+
+.botao__entrar{
+    margin-top: 2em;
+    width: 40%;
+}
+
+.divisao__botao__entrar {
+    text-align: center;
+}
+
+main {
+    background-image: linear-gradient(rgba(152, 237, 44, 0.98), rgba(19, 154, 24, 1));
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}

@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    font-family: "Montserrat", sans-serif;
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,13 +19,14 @@
 .divisao__login {
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 0.5em;
 }
 
 .box {
     display: flex;
+    margin-top: .5em;
     flex-direction: row;
-    gap: .5em;
+    gap: .3em;
 }
 
 .conteudo {
@@ -27,16 +35,53 @@
 
 .login {
     margin: 2em 0;
-    
+    color: white;
+
+}
+
+.caixa__login {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 3em;
+    margin-left: 10em;
+
+}
+
+.caixa__usuario {
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 1.7em;
+    width: 16em;
+}
+
+.espaco__caixa {
+    margin-bottom: 1em;
+}
+
+
+.titulo__login {
+    font-weight: 700;
+}
+
+.texto__login {
+    font-size: 12px;
+
 }
 
 .botao__voltar {
     padding: 1em;
+
+
 }
 
-.botao__entrar{
+.botao__entrar {
     margin-top: 2em;
-    width: 40%;
+    width: 50%;
+    height: 30;
+    padding: .3em;
+    border: 2px solid transparent;
+    border-radius: 10px;
+
 }
 
 .divisao__botao__entrar {
@@ -50,4 +95,18 @@ main {
 
 h1 {
     text-align: center;
+}
+
+.imagem {
+    width: 50px;
+    height: 50px;
+}
+ 
+.tamanho__imagem {
+    width: 700px;
+    height: 400px;
+}
+
+.espaco__imagem {
+    margin-top: 2em;
 }

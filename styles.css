@@ -27,7 +27,7 @@
     margin-top: .5em;
     flex-direction: row;
     gap: .3em;
-    
+
 }
 
 .conteudo {
@@ -35,17 +35,20 @@
 }
 
 .login {
-    margin: 2em 0;
+    margin-top: 0.05em;
+    margin-bottom: 2em;
     color: white;
 
 }
 
 .caixa__login {
+    background-image: linear-gradient(rgba(75, 79, 71, 0.98), rgb(12, 151, 16));
     border: 2px solid white;
     border-radius: 10px;
     padding: 3em;
     margin-left: 10em;
     box-shadow: 3px 2px 7px rgba(0, 0, 0, 0.6);
+    margin-top: 2em;
 
 }
 
@@ -68,6 +71,7 @@
 
 .titulo__login {
     font-weight: 700;
+
 }
 
 .texto__selecao {
@@ -95,7 +99,7 @@
 }
 
 main {
-    background-image: linear-gradient(rgba(152, 237, 44, 0.98), rgba(19, 154, 24, 1));
+    background-image: linear-gradient(rgba(152, 237, 44, 0.98), rgb(17, 144, 21));
     height: 100vh;
 }
 
